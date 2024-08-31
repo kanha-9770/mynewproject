@@ -1,7 +1,7 @@
 import React from "react";
 import SpecificationTable from "./SpecificationTable";
 import Image from "next/image";
-import SpeciGlass from "../../../public/assets/product/Specificationglass.png";
+import Specificaationglass from "../../../public/assets/product/Specificaationglass.png";
 import { BiSolidFilePdf } from "react-icons/bi";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
@@ -31,10 +31,10 @@ export function TechnicalSpecifications() {
           <SpecificationTable />
           <div className="ml-8  w-[50%]">
             <Image
-              src={SpeciGlass}
+              src={Specificaationglass}
               width={400}
               height={400}
-              alt="Specification Glass"
+              alt="Specificaationglass"
               className="w-full  h-auto object-contain"
             />
           </div>
